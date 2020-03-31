@@ -2,19 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-class Card extends React.Component{
-    constructor(props){
-        this.props = props;
-        this.element = document.createElement("div");
-        this.element.innerHTML = this.props.content;
-        Let span = document.createElement("span");
-        this.element.appendChild(span);
-        span.innerHTML = this.props.content;
-        this.element.className = "card";
-    }
-render()
+ReactDOM.render(<App />, document.getElementById('root'));
 
-}
-
-export default Card;
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

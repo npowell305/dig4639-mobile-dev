@@ -1,18 +1,14 @@
-import'./index.css'
-import React from 'react'
+import React from 'react';
+import './index.css';
 
-class Card extends React.Component{
-    constructor(props){
-        this.props = props;
-        this.element = document.createElement("div");
-        this.element.innerHTML = this.props.content;
-        Let Span = document.createElement("span");
-        this.element.appendChild(span);
-        span.innerHTML = this.props.content;
-        this.element.className = "card";
-    }
-render()
-
+class Card extends React.Component {
+  render () {
+    return(
+      <div className="card">
+        <h1>{this.props.content}</h1>
+      </div>
+    );
+  }
 }
 
 export default Card;
