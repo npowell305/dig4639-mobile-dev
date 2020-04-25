@@ -1,0 +1,15 @@
+.profile-title {
+    color: white;
+    text-transform: uppercase;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: .015px 20px;
+    background-color: rgb(62, 104, 255);
+    margin-top: 15px;
+    border-radius: 30px;
+}
