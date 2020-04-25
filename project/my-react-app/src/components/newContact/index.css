@@ -1,7 +1,7 @@
 .form {
     border: 2px solid black;
     font-family: cursive;
-    background-color: rgb(235, 226, 148);
+    background-color: rgb(41, 10, 124);
     margin: auto;
     width: fit-content;
     text-align: center;
@@ -9,7 +9,7 @@
   }
   
   .button {
-    background-color:  rgb(63, 185, 51);
+    background-color:  rgb(152, 224, 146);
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
@@ -24,7 +24,7 @@
   }
   
   .button:hover {
-    background-color: rgb(15, 66, 28);
+    background-color: rgb(6, 136, 39);
     font-style: bold;
   }
   
