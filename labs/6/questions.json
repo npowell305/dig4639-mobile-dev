@@ -1,0 +1,71 @@
+[
+    {
+      "question": "1. Who is Nick?",
+      "answers" :
+        [
+          {"text": "A student",
+          "correct": true
+          },
+          {
+            "text": "A Billionaire",
+            "correct": false
+          }
+        ]
+    },
+    {
+      "question": "2. What does Nick do?",
+      "answers": 
+        [
+          {
+            "text": "Play games",
+            "correct": true
+          },
+          {
+            "text": "do math",
+            "correct": false
+          }
+        ]
+    },
+    {
+      "question": "3. Does Nick eat?",
+      "answers": 
+        [
+          {
+            "text": "Yes",
+            "correct": true
+          },
+          {
+            "text": "No",
+            "correct": false
+          }
+        ]
+    },
+    {
+      "question": "4. Does Nick miss going to class?",
+      "answers":
+        [
+          {
+            "text": "No he likes being bored at home.",
+            "correct": false
+          },
+          {
+            "text": "Yes he misses walking in the morning.",
+            "correct": true
+          }
+        ]
+    },
+    {
+      "question": "5. Will Nick pass this class?",
+      "answers": 
+        [
+          {
+            "text": "Yes I hope so",
+            "correct": true
+          },
+          {
+            "text": "nah.",
+            "correct": false
+          }
+        ]
+    }
+  ]
