@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     width: 300,
     textAlign: 'center',
     marginTop: 150,
-    backgroundColor: 'goldenrod'
+    backgroundColor: 'gold'
   },
 
   header: {
@@ -76,9 +76,9 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: 'red',
+    backgroundColor: 'blue',
     margin: 10,
-    color: 'black'
+    color: 'white'
 
   },
 
